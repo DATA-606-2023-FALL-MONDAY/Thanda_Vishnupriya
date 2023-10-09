@@ -50,3 +50,8 @@ Describe the datasets you are using to answer your research questions.
   |   Authors  |   object  |   Author of the Paper  |
   | Published  |   object  |   Date of the paper Published       |
   |    Link    |   object  |   Link to the paper Published       |
+
+## 4. System
+
+<img align="right" src="diagram.jpg" alt="User flow">
+
