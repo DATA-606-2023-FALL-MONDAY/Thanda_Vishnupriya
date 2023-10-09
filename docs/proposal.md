@@ -37,7 +37,7 @@ Describe the datasets you are using to answer your research questions.
 - Data shape: 9500 Rows and 5 Columns
 - Time period: None
 - Feature Variable: Summary
-- Output: Published (Link to the Paper)
+- Output: Relevant Papers (Links to the Paper)
 - Each row represents the information of a particular research paper.
 - Data dictionary:
 
@@ -48,4 +48,5 @@ Describe the datasets you are using to answer your research questions.
   |    Title   |   object  |   Title of the Paper   |
   |   Summary  |   object  |   Summary of the Paper |
   |   Authors  |   object  |   Author of the Paper  |
-  | Published  |   object  |   Link to the paper Published       |
+  | Published  |   object  |   Date of the paper Published       |
+  |    Link    |   object  |   Link to the paper Published       |
