@@ -58,20 +58,29 @@ Describe the datasets you are using to answer your research questions.
 
 ## 4. Exploratory Data Analysis (EDA)
 
-- Perform data exploration using Jupyter Notebook
-- You would focus on the target variable and the selected features and drop all other columns.
-- produce summary statistics of key variables
-- Create visualizations (I recommend using **Plotly Express**)
-- Find out if the data require cleansing:
-  - Missing values?
-  - Duplicate rows? 
-- Find out if the data require splitting, merging, pivoting, melting, etc.
-- Find out if you need to bring in other data sources to augment your data.
-  - For example, population, socioeconomic data from Census may be helpful.
-- For textual data, you will pre-process (normalize, remove stopwords, tokenize) them before you can analyze them in predictive analysis/machine learning.
-- Make sure the resulting dataset need to be "tidy":
-  - each row represent one observation (ideally one unique entity/subject).
-  - each columm represents one unique property of that entity. 
+EDA has laid a robust foundation for the subsequent stages of our model development. By focusing on key variables, utilizing visualizations, and ensuring data cleanliness and tidiness, I am well-prepared for the predictive analytics phase. The insights gained from this exploration will guide our modeling decisions and contribute to the effectiveness of the final recommendation system.
+
+1. Perform Data Exploration:
+My data exploration focused on understanding the key variables related to our ML Paper Recommendation System. I began by identifying the target variable which is “Summary” and selected features critical to our recommendation model.
+
+2. Summary Statistics:
+Summary statistics were generated for key variables, providing insights into the distribution and characteristics of the data. This step served as a foundation for understanding the central tendencies and variabilities in our dataset.
+ADD PICTURE
+
+3. Visualizations:
+Utilizing various plots, I crafted interactive visualizations to uncover patterns, trends, and potential relationships within the data. Visualizations included histograms, box plots, and scatter plots, enhancing our understanding of variable distributions and potential outliers.
+ADD PICTURES
+
+4. Data Cleansing:
+I investigated the need for data cleansing by addressing missing values and identifying duplicate rows. This process ensured the integrity of our dataset and mitigated potential biases in subsequent analyses. As of now, there are no missing values in the dataset.
+
+5. Augmentation with External Data:
+To enrich the dataset, I explored the incorporation of external data sources. A custom dataset has been prepared by scraping the metadata of research papers from the <a href="https://export.arxiv.org/">ArXiv API</a>.
+
+6. Pre-processing for Textual Data:
+For textual data, a crucial aspect of our recommendation system, I implemented pre-processing steps. This involved normalization, removal of stop words, and tokenization, ensuring that the textual data is appropriately prepared for analysis and modeling. 
+  
+Post EDA, the resulting dataset adheres to the principles of tidy data. Each row represents a unique observation or paper, while each column corresponds to a specific property or feature associated with that paper. 
 
 ## 5. Model Training 
 
@@ -112,12 +121,7 @@ We will employ multiple metrics to measure and compare the performance of our ML
 
 ## 7. Conclusion
 
-- Summarize your work and its potetial application
-- Point out the limitations of your work
-- Lessons learned 
-- Talk about future research direction
-
-We were able to create a recommendation system that helps researchers to find relevant papers for their research. The app was developed using Streamlit UI, providing a user-friendly interface for researchers to find information with ease. And it helps researchers stay up to date with the latest research.
+We have created a recommendation system that helps researchers to find relevant papers for their research. The app was developed using Streamlit UI, providing a user-friendly interface for researchers to find information with ease. And it helps researchers stay up to date with the latest research.
 
 We can also use diverse algorithms, such as collaborative filtering based on user interactions. Collaborative filtering is a technique used by recommender systems to make automatic predictions about the interests of a user by effectively capturing preferences or information from the users. It can significantly improve the performance and personalization of recommender systems.
 
