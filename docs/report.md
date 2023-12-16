@@ -76,9 +76,8 @@ Describe the datasets you are using to answer your research questions.
 ## 5. Model Training 
 
 - What models you will be using for predictive analytics?
-  ### Models for Predictive Analytics:
- For our ML Paper Recommendation System, we will be utilizing advanced embedding models. Specifically, I have combined SPECTER 2.0 with   
- Sentence Transformers for a more comprehensive understanding of paper content and context. I have chosen Sentence Transformers due to its 
+   - Models for Predictive Analytics:
+ For our ML Paper Recommendation System, we will be utilizing advanced embedding models. Specifically, I have combined SPECTER 2.0 with  Sentence Transformers for a more comprehensive understanding of paper content and context. I have chosen Sentence Transformers due to its 
  ability to capture contextual information effectively. These models have been pre-trained on large datasets, making them suitable for our 
  recommendation task.
  SPECTER 2.0 (Spectral Embedding from Citations and Titles for Efficient Retrieval) is a cutting-edge model specifically designed for 
@@ -97,9 +96,9 @@ Describe the datasets you are using to answer your research questions.
 - How will you measure and compare the performance of the models?
 
 We will employ multiple metrics to measure and compare the performance of our ML Paper Recommendation System.
-  - ### Cosine Similarity:
+   - Cosine Similarity:
   Since our recommendation system relies on embeddings and Sentence Transformers, we will measure the similarity between recommended papers and user queries using cosine similarity. A higher cosine similarity indicates a more relevant recommendation.
-  - ### User Feedback and Interaction Metrics:
+   - User Feedback and Interaction Metrics:
   To incorporate user feedback, we may consider metrics related to user interaction, such as click-through rates or time spent on recommended papers. This user-centric evaluation helps ensure that the recommendations align with the user's needs and preferences.
 
 ## 6. Application of the Trained Models
