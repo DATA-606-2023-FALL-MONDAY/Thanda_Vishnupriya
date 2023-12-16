@@ -53,7 +53,7 @@ Describe the datasets you are using to answer your research questions.
 
 ### System Architecture
 
-<img align="center" src="diagram.jpg" alt="User flow" width="300" height="500">
+<img align="center" src="../data/architecture.jpg" alt="User flow" width="300" height="500">
 
 
 ## 4. Exploratory Data Analysis (EDA)
@@ -65,11 +65,25 @@ My data exploration focused on understanding the key variables related to our ML
 
 2. Summary Statistics:
 Summary statistics were generated for key variables, providing insights into the distribution and characteristics of the data. This step served as a foundation for understanding the central tendencies and variabilities in our dataset.
-ADD PICTURE
+
+<img align="center" src="../data/Summary_statistics.png" alt="User flow" width="800" height="200">
 
 3. Visualizations:
 Utilizing various plots, I crafted interactive visualizations to uncover patterns, trends, and potential relationships within the data. Visualizations included histograms, box plots, and scatter plots, enhancing our understanding of variable distributions and potential outliers.
-ADD PICTURES
+
+Below are few plots which shows us the length of titles, summary, top stopwords and non stopwords along with top bi-grams.
+
+<img align="center" src="../data/EDA_Titles.png" alt="Titles Length" width="500" height="500">
+
+<img align="center" src="../data/EDA_Summary.png" alt="Summary Length" width="500" height="500">
+
+<img align="center" src="../data/EDA_Stopwords.png" alt="Top Stopwords" width="500" height="500">
+
+<img align="center" src="../data/EDA_nonstopwords.png" alt="Top Nonstopwords" width="500" height="500">
+
+<img align="center" src="../data/BiGrams.png" alt="Top BiGrams" width="500" height="500">
+
+By analyzing top stop words, N-grams and the length of titles and summaries in research papers, it helped me identify the most important words and phrases that are relevant to a particular topic and understand the dataset better. This analysis can help in improving the accuracy of the recommendation system by ensuring that the recommended papers are closely related to the user's interests.
 
 4. Data Cleansing:
 I investigated the need for data cleansing by addressing missing values and identifying duplicate rows. This process ensured the integrity of our dataset and mitigated potential biases in subsequent analyses. As of now, there are no missing values in the dataset.
@@ -129,4 +143,15 @@ The adoption of advanced embedding models such as Specter and new models like Ad
 
 ## 8. References 
 
-List articles, blogs, and websites that you have referenced or used in your project.
+[1] API for arXiv Categorization - arXiv info. (n.d.). Info.arxiv.org. Retrieved September 16, 2023, from https://info.arxiv.org/help/api/classify.html
+
+[2] ‌Scientific Paper Recommendation System | IEEE Conference Publication | IEEE Xplore. (n.d.). Ieeexplore.ieee.org. Retrieved October 10, 2023, from https://ieeexplore.ieee.org/document/10126196
+
+
+[3] Word embeddings | Text. (n.d.). TensorFlow. https://www.tensorflow.org/text/guide/word_embeddings
+
+‌
+[4] Pretrained Models — Sentence-Transformers documentation. (n.d.). Www.sbert.net. https://www.sbert.net/docs/pretrained_models.html
+‌
+
+[5] allenai/specter2 · Hugging Face. (2023, October 19). Huggingface.co. https://huggingface.co/allenai/specter2
