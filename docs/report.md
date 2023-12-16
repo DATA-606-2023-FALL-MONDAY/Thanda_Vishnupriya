@@ -77,17 +77,18 @@ Describe the datasets you are using to answer your research questions.
 
 - What models you will be using for predictive analytics?
   ### Models for Predictive Analytics:
-* For our ML Paper Recommendation System, we will be utilizing advanced embedding models. Specifically, I have combined SPECTER 2.0 with Sentence Transformers for a more comprehensive understanding of paper content and context. I have chosen Sentence Transformers due to its ability to capture contextual information effectively. These models have been pre-trained on large datasets, making them suitable for our recommendation task.
-* SPECTER 2.0 (Spectral Embedding from Citations and Titles for Efficient Retrieval) is a cutting-edge model specifically designed for scientific paper recommendation and exploration. It goes beyond traditional keyword-based approaches by leveraging the rich network of citations between papers, offering a more nuanced and insightful understanding of scientific knowledge and relationships.
-* This has lead to more accurate and nuanced recommendations, taking into account both textual and citation-based information.
+For our ML Paper Recommendation System, we will be utilizing advanced embedding models. Specifically, I have combined SPECTER 2.0 with Sentence Transformers for a more comprehensive understanding of paper content and context. I have chosen Sentence Transformers due to its ability to capture contextual information effectively. These models have been pre-trained on large datasets, making them suitable for our recommendation task.
+SPECTER 2.0 (Spectral Embedding from Citations and Titles for Efficient Retrieval) is a cutting-edge model specifically designed for scientific paper recommendation and exploration. It goes beyond traditional keyword-based approaches by leveraging the rich network of citations between papers, offering a more nuanced and insightful understanding of scientific knowledge and relationships.
+This has lead to more accurate and nuanced recommendations, taking into account both textual and citation-based information.
   
 - How will you train the models?
+
 The model training process will heavily rely on Python, utilizing popular machine learning and NLP packages. Specifically, we will leverage scikit-learn for general machine learning tasks, and Hugging Face's Transformers library for working with pre-trained transformer models like Sentence Transformers. These packages offer a rich set of tools for model development, training, and evaluation.
 Python packages to be used are scikit-learn, NLTK, spaCy, streamlit, pandas, PIL etc.
 The development environments I have used are Google CoLab and VSCode on my personal laptop.
 
 - How will you measure and compare the performance of the models?
-* We will employ multiple metrics to measure and compare the performance of our ML Paper Recommendation System.
+We will employ multiple metrics to measure and compare the performance of our ML Paper Recommendation System.
   ### Cosine Similarity:
   Since our recommendation system relies on embeddings and Sentence Transformers, we will measure the similarity between recommended papers and user queries using cosine similarity. A higher cosine similarity indicates a more relevant recommendation.
   ### User Feedback and Interaction Metrics:
