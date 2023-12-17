@@ -53,7 +53,7 @@ Describe the datasets you are using to answer your research questions.
 
 ### System Architecture
 
-<img align="center" src="../data/architecture.jpg" alt="User flow" width="300" height="500">
+<img align="center" src="../data/Pictures/architecture.jpg" alt="User flow" width="300" height="500">
 
 
 ## 4. Exploratory Data Analysis (EDA)
@@ -66,22 +66,22 @@ My data exploration focused on understanding the key variables related to our ML
 2. Summary Statistics:
 Summary statistics were generated for key variables, providing insights into the distribution and characteristics of the data. This step served as a foundation for understanding the central tendencies and variabilities in our dataset.
 
-<img align="center" src="../data/Summary_statistics.png" alt="User flow" width="800" height="200">
+<img align="center" src="../data/Pictures/Summary_statistics.png" alt="User flow" width="800" height="200">
 
 3. Visualizations:
 Utilizing various plots, I crafted interactive visualizations to uncover patterns, trends, and potential relationships within the data. Visualizations included histograms, box plots, and scatter plots, enhancing our understanding of variable distributions and potential outliers.
 
 Below are few plots which shows us the length of titles, summary, top stopwords and non stopwords along with top bi-grams.
 
-<img align="center" src="../data/EDA_Titles.png" alt="Titles Length" width="500" height="500">
+<img align="center" src="../data/Pictures/EDA_Titles.png" alt="Titles Length" width="500" height="500">
 
-<img align="center" src="../data/EDA_Summary.png" alt="Summary Length" width="500" height="500">
+<img align="center" src="../data/Pictures/EDA_Summary.png" alt="Summary Length" width="500" height="500">
 
-<img align="center" src="../data/EDA_Stopwords.png" alt="Top Stopwords" width="500" height="500">
+<img align="center" src="../data/Pictures/EDA_Stopwords.png" alt="Top Stopwords" width="500" height="500">
 
-<img align="center" src="../data/EDA_nonstopwords.png" alt="Top Nonstopwords" width="500" height="500">
+<img align="center" src="../data/Pictures/EDA_nonstopwords.png" alt="Top Nonstopwords" width="500" height="500">
 
-<img align="center" src="../data/BiGrams.png" alt="Top BiGrams" width="500" height="500">
+<img align="center" src="../data/Pictures/BiGrams.png" alt="Top BiGrams" width="500" height="500">
 
 By analyzing top stop words, N-grams and the length of titles and summaries in research papers, it helped me identify the most important words and phrases that are relevant to a particular topic and understand the dataset better. This analysis can help in improving the accuracy of the recommendation system by ensuring that the recommended papers are closely related to the user's interests.
 
