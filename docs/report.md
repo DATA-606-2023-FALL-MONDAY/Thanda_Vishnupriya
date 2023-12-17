@@ -1,10 +1,10 @@
-#  Vishnu Priya Thanda FALL 2023 Capstone Report
+#  DATA 606 Capstone Report
  
-## 1. PaperCraft- Craft Your Research Journey using Smart Paper Recommendation Engine
-
+## 1. Title and Author
 - **PaperCraft**
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
-- Author Name - Vishnu Priya Thanda
+- **Author Name** - Vishnu Priya Thanda
+- **Semester** - FALL 2023
 - <a href="https://github.com/Vishnupriya-T"><img align="left" src="https://img.shields.io/badge/-GitHub-CD5C5C?logo=github&style=flat" alt="icon | LinkedIn"/></a>  
 - <a href="https://www.linkedin.com/in/vishnu-priya-t/"><img align="left" src="https://img.shields.io/badge/-LinkedIn-1E90FF?logo=linkedin&style=flat" alt="icon | GitHub"/></a>
 - <a href="https://github.com/DATA-606-2023-FALL-MONDAY/Thanda_Vishnupriya/blob/main/data/PaperCraft.pptx"><img src="https://img.shields.io/badge/-PowerPoint Presentation Download-B7472A?logo=microsoftpowerpoint&style=flat" alt="icon | GitHub"/></a>  
@@ -151,7 +151,7 @@ The adoption of advanced embedding models such as Specter and new models like Ad
 [3] Word embeddings | Text. (n.d.). TensorFlow. https://www.tensorflow.org/text/guide/word_embeddings
 
 ‌
-[4] Pretrained Models — Sentence-Transformers documentation. (n.d.). Www.sbert.net. https://www.sbert.net/docs/pretrained_models.html
+[4] Pretrained Models — Sentence-Transformers documentation. (n.d.). https://www.sbert.net/docs/pretrained_models.html
 ‌
 
 [5] allenai/specter2 · Hugging Face. (2023, October 19). Huggingface.co. https://huggingface.co/allenai/specter2
