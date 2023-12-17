@@ -1,4 +1,4 @@
-<img align="right" src="photo.jpg" alt="alt text" width="110" height="130">
+<img align="right" src="../data/headshot.jpg" alt="alt text" width="110" height="130">
 
 # Vishnu Priya Thanda
 
