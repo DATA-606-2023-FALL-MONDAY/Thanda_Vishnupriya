@@ -53,5 +53,5 @@ Describe the datasets you are using to answer your research questions.
 
 ## 4. System
 
-<img align="center" src="diagram.jpg" alt="User flow" width="300" height="500">
+<img align="center" src="../data/architecture.jpg" alt="User flow" width="300" height="500">
 
