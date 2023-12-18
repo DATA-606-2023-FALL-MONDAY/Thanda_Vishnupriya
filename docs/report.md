@@ -79,9 +79,9 @@ Below are few plots which shows us the length of titles, summary, top stopwords 
 
 <img align="center" src="../data/Pictures/EDA_Stopwords.png" alt="Top Stopwords" width="600" height="500">
 
-<img align="center" src="../data/Pictures/EDA_nonstopwords.png" alt="Top Nonstopwords" width="500" height="500">
+<img align="center" src="../data/Pictures/EDA_nonstopwords.png" alt="Top Nonstopwords" width="600" height="500">
 
-<img align="center" src="../data/Pictures/BiGrams.png" alt="Top BiGrams" width="500" height="500">
+<img align="center" src="../data/Pictures/BiGrams.png" alt="Top BiGrams" width="600" height="500">
 
 By analyzing top stop words, N-grams and the length of titles and summaries in research papers, it helped me identify the most important words and phrases that are relevant to a particular topic and understand the dataset better. This analysis can help in improving the accuracy of the recommendation system by ensuring that the recommended papers are closely related to the user's interests.
 
