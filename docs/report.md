@@ -96,33 +96,53 @@ For textual data, a crucial aspect of our recommendation system, I implemented p
   
 Post EDA, the resulting dataset adheres to the principles of tidy data. Each row represents a unique observation or paper, while each column corresponds to a specific property or feature associated with that paper. 
 
-## 5. Model Training 
+## 5. Model Training
 
-- What models you will be using for predictive analytics?
-  ### Models for Predictive Analytics:
- For our ML Paper Recommendation System, we will be utilizing advanced embedding models. Specifically, I have combined SPECTER 2.0 with  Sentence Transformers for a more comprehensive understanding of paper content and context. I have chosen Sentence Transformers due to its 
- ability to capture contextual information effectively. These models have been pre-trained on large datasets, making them suitable for our 
- recommendation task.
- SPECTER 2.0 (Spectral Embedding from Citations and Titles for Efficient Retrieval) is a cutting-edge model specifically designed for 
- scientific paper recommendation and exploration. It goes beyond traditional keyword-based approaches by leveraging the rich network of 
- citations between papers, offering a more nuanced and insightful understanding of scientific knowledge and relationships.
- This has lead to more accurate and nuanced recommendations, taking into account both textual and citation-based information.
-   
-- How will you train the models?
+Embeddings are a powerful technique in natural language processing that allows us to represent text as a
+high-dimensional vector in a continuous space. This vector representation captures the semantic meaning
+of the text and allows us to perform various tasks such as classification, clustering, and recommendation.
+In our recommendation system, embeddings are particularly useful as they allow us to compare the semantic
+similarity of two research papers based on their abstracts. Traditional methods such as keyword-based
+search or metadata-based filtering may not capture the full semantic meaning of the text and may miss
+important relationships between papers.
+![embedding](../data/Pictures/embedding.jpg)
 
- The model training process will heavily rely on Python, utilizing popular machine learning and NLP packages. Specifically, we will 
- leverage scikit-learn for general machine learning tasks, and Hugging Face's Transformers library for working with pre-trained transformer 
- models like Sentence Transformers. These packages offer a rich set of tools for model development, training, and evaluation.
- Python packages to be used are scikit-learn, NLTK, spaCy, streamlit, pandas, PIL etc.
- The development environments I have used are Google CoLab and VSCode on my personal laptop.
 
-- How will you measure and compare the performance of the models?
+Embeddings can be created using different methods like TF-IDF, word2vec, and BERT-based models, each capturing distinct text aspects.
+ 
+ 1. TF-IDF Embeddings
 
+ TF-IDF (Term Frequency-Inverse Document Frequency) is a widely used technique that measures the
+importance of a word in a document by considering its frequency in the document and in the corpus. In my
+implementation, I used the Scikit-learn implementation of TF-IDF to generate embeddings for the paper
+abstracts. However, it is worth noting that TF-IDF embeddings only capture the frequency information of
+the words and may not be able to capture the semantic meaning of the text.
+
+2. Sentence Transformers
+
+To overcome the limitations of TF-IDF, I also utilized Sentence-Transformers to generate embeddings
+for the paper abstracts. Sentence-Transformers are pre-trained models that can generate embeddings for
+sentences, based on transformer architectures such as BERT and RoBERTa. In my implementation, I used
+the pre-trained model called "bert-base-nli-mean-tokens" to generate embeddings for the paper abstracts.
+The Sentence-Transformers embeddings captured the text's semantic meaning and provided more accurate
+similarity scores compared to TF-IDF.
+
+3. Specter 2.0 (BERT based)
+
+Specter2.0 is a state-of-the-art document embedding model that was developed by the Allen Institute for
+AI. The model was trained on a large corpus of scientific papers, which makes it particularly well-suited
+for generating embeddings for research papers. It uses a BERT-based architecture to generate embeddings
+for each sentence in a document. These sentence embeddings are then combined using a pooling strategy
+to generate a single document embedding. The resulting embedding captures the semantic meaning of the
+entire document and can be used for various downstream tasks such as classification, clustering, and
+recommendation.
+
+I also trained a hugginface transformer based model with Neural Networks for embedding generation, but because of the GPU constraints I couldn't use that model, I've used Specter 2.0 model for the recommendation system.
 We will employ multiple metrics to measure and compare the performance of our ML Paper Recommendation System.
   ### Cosine Similarity:
   Since our recommendation system relies on embeddings and Sentence Transformers, we will measure the similarity between recommended papers and user queries using cosine similarity. A higher cosine similarity indicates a more relevant recommendation.
   ### User Feedback and Interaction Metrics:
-  To incorporate user feedback, we may consider metrics related to user interaction, such as click-through rates or time spent on recommended papers. This user-centric evaluation helps ensure that the recommendations align with the user's needs and preferences.
+  To incorporate user feedback, I considered metrics related to user interaction also, I've showed this application and got feedback from my friends.
 
 ## 6. Application of the Trained Models
 
