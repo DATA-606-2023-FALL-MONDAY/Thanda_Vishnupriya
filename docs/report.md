@@ -85,11 +85,11 @@ Below are few plots which shows us the length of titles, summary, top stopwords 
 </p>
 
 <p align="center">
-<img align="center" src="../data/Pictures/EDA_nonstopwords.png" alt="Top Nonstopwords" width="400" height="300">
+<img align="center" src="../data/Pictures/EDA_nonstopwords.png" alt="Top Nonstopwords" width="500" height="400">
 </p>
 
 <p align="center">
-<img align="center" src="../data/Pictures/BiGrams.png" alt="Top BiGrams" width="600" height="500">
+<img align="center" src="../data/Pictures/BiGrams.png" alt="Top BiGrams" width="500" height="400">
 </p>
 
 
