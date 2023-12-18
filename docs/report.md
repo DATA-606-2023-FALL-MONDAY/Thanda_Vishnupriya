@@ -73,11 +73,11 @@ Utilizing various plots, I crafted interactive visualizations to uncover pattern
 
 Below are few plots which shows us the length of titles, summary, top stopwords and non stopwords along with top bi-grams.
 <p align="center">
-<img align="center" src="../data/Pictures/EDA_Titles.png" alt="Titles Length" width="300" height="300">
+<img align="center" src="../data/Pictures/EDA_Titles.png" alt="Titles Length" width="400" height="400">
 </p>
 
 <p align="center">
-<img align="center" src="../data/Pictures/EDA_Summary.png" alt="Summary Length" width="300" height="300">
+<img align="center" src="../data/Pictures/EDA_Summary.png" alt="Summary Length" width="400" height="400">
 </p>
 
 <p align="center">
