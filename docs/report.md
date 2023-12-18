@@ -115,7 +115,10 @@ In our recommendation system, embeddings are particularly useful as they allow u
 similarity of two research papers based on their abstracts. Traditional methods such as keyword-based
 search or metadata-based filtering may not capture the full semantic meaning of the text and may miss
 important relationships between papers.
-![embedding](../data/Pictures/embedding.jpg)
+<p align="center">
+<img align="center" src="../data/Pictures/embedding.jpg" alt="Top BiGrams" width="400" height="400">
+</p>
+
 
 
 Embeddings can be created using different methods like TF-IDF, word2vec, and BERT-based models, each capturing distinct text aspects.
