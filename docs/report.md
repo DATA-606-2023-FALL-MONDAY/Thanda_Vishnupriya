@@ -108,6 +108,14 @@ Post EDA, the resulting dataset adheres to the principles of tidy data. Each row
 
 ## 5. Model Training
 
+### 1. Models for Predictive Analytics:
+* For our ML Paper Recommendation System, we will be utilizing advanced embedding models. Specifically, we have chosen Sentence Transformers due to their ability to capture contextual information effectively. These models have been pre-trained on large datasets, making them suitable for our recommendation task.
+### 2. Model Training:
+* Python Packages:
+  The model training process will heavily rely on Python, utilizing popular machine learning and NLP packages. Specifically, we will leverage scikit-learn for general machine learning tasks, and Hugging Face's Transformers library for working with pre-trained transformer models like Sentence Transformers. These packages offer a rich set of tools for model development, training, and evaluation.
+* Development Environments:
+  The development environment will primarily be Jupyter Notebooks running locally on our laptops. This setup provides flexibility and ease of experimentation. Additionally, we may utilize Google Colab for training models that require significant computational resources, taking advantage of its GPU/TPU capabilities.
+
 Embeddings are a powerful technique in natural language processing that allows us to represent text as a
 high-dimensional vector in a continuous space. This vector representation captures the semantic meaning
 of the text and allows us to perform various tasks such as classification, clustering, and recommendation.
@@ -123,7 +131,7 @@ important relationships between papers.
 
 Embeddings can be created using different methods like TF-IDF, word2vec, and BERT-based models, each capturing distinct text aspects.
  
- 1. TF-IDF Embeddings
+- **TF-IDF Embeddings**
 
  TF-IDF (Term Frequency-Inverse Document Frequency) is a widely used technique that measures the
 importance of a word in a document by considering its frequency in the document and in the corpus. In my
@@ -131,7 +139,7 @@ implementation, I used the Scikit-learn implementation of TF-IDF to generate emb
 abstracts. However, it is worth noting that TF-IDF embeddings only capture the frequency information of
 the words and may not be able to capture the semantic meaning of the text.
 
-2. Sentence Transformers
+- **Sentence Transformers**
 
 To overcome the limitations of TF-IDF, I also utilized Sentence-Transformers to generate embeddings
 for the paper abstracts. Sentence-Transformers are pre-trained models that can generate embeddings for
@@ -140,7 +148,7 @@ the pre-trained model called "bert-base-nli-mean-tokens" to generate embeddings 
 The Sentence-Transformers embeddings captured the text's semantic meaning and provided more accurate
 similarity scores compared to TF-IDF.
 
-3. Specter 2.0 (BERT based)
+- **Specter 2.0 (BERT based)**
 
 Specter2.0 is a state-of-the-art document embedding model that was developed by the Allen Institute for
 AI. The model was trained on a large corpus of scientific papers, which makes it particularly well-suited
@@ -151,10 +159,13 @@ entire document and can be used for various downstream tasks such as classificat
 recommendation.
 
 I also trained a hugginface transformer based model with Neural Networks for embedding generation, but because of the GPU constraints I couldn't use that model, I've used Specter 2.0 model for the recommendation system.
+
+### 3. Performance Measurement and Comparison:
+   
 We will employ multiple metrics to measure and compare the performance of our ML Paper Recommendation System.
-  ### Cosine Similarity:
+  #### * Cosine Similarity:
   Since our recommendation system relies on embeddings and Sentence Transformers, we will measure the similarity between recommended papers and user queries using cosine similarity. A higher cosine similarity indicates a more relevant recommendation.
-  ### User Feedback and Interaction Metrics:
+  #### * User Feedback and Interaction Metrics:
   To incorporate user feedback, I considered metrics related to user interaction also, I've showed this application and got feedback from my friends.
 
 ## 6. Application of the Trained Models
