@@ -77,7 +77,7 @@ Below are few plots which shows us the length of titles, summary, top stopwords 
 
 <img align="center" src="../data/Pictures/EDA_Summary.png" alt="Summary Length" width="500" height="500">
 
-<img align="center" src="../data/Pictures/EDA_Stopwords.png" alt="Top Stopwords" width="500" height="600">
+<img align="center" src="../data/Pictures/EDA_Stopwords.png" alt="Top Stopwords" width="600" height="500">
 
 <img align="center" src="../data/Pictures/EDA_nonstopwords.png" alt="Top Nonstopwords" width="500" height="500">
 
