@@ -72,16 +72,26 @@ Summary statistics were generated for key variables, providing insights into the
 Utilizing various plots, I crafted interactive visualizations to uncover patterns, trends, and potential relationships within the data. Visualizations included histograms, box plots, and scatter plots, enhancing our understanding of variable distributions and potential outliers.
 
 Below are few plots which shows us the length of titles, summary, top stopwords and non stopwords along with top bi-grams.
-
+<p align="center">
 <img align="center" src="../data/Pictures/EDA_Titles.png" alt="Titles Length" width="500" height="500">
+</p>
 
+<p align="center">
 <img align="center" src="../data/Pictures/EDA_Summary.png" alt="Summary Length" width="500" height="500">
+</p>
 
+<p align="center">
 <img align="center" src="../data/Pictures/EDA_Stopwords.png" alt="Top Stopwords" width="600" height="500">
+</p>
 
+<p align="center">
 <img align="center" src="../data/Pictures/EDA_nonstopwords.png" alt="Top Nonstopwords" width="600" height="500">
+</p>
 
+<p align="center">
 <img align="center" src="../data/Pictures/BiGrams.png" alt="Top BiGrams" width="600" height="500">
+</p>
+
 
 By analyzing top stop words, N-grams and the length of titles and summaries in research papers, it helped me identify the most important words and phrases that are relevant to a particular topic and understand the dataset better. This analysis can help in improving the accuracy of the recommendation system by ensuring that the recommended papers are closely related to the user's interests.
 
